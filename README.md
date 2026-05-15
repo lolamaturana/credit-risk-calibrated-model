@@ -37,7 +37,17 @@ Este repositorio contiene la primera fase (Modelado Analítico) del sistema *end
 Este proyecto utiliza el stack moderno de Python gestionado a través de [uv](https://github.com/astral-sh/uv) para asegurar tiempos de instalación ultrarrápidos y una **reproducibilidad estricta** (dependencias congeladas en `uv.lock` y semillas `random_state=42` fijadas en todo el código).
 
 ### 1. Prerrequisitos
-Asegúrate de tener instalado `uv` en tu sistema:
+Asegúrate de tener instalado `uv` en tu sistema. Si no lo tienes, puedes instalarlo rápidamente:
+
+**En macOS y Linux:**
+```bash
+curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+```
+
+**En Windows:**
+```bash
+powershell -ExecutionPolicy ByPass -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
+```
 
 ### 2. Sincronización del entorno
 ```bash
