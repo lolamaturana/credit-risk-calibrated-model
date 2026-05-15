@@ -41,10 +41,10 @@ Asegúrate de tener instalado `uv` en tu sistema:
 
 ### 2. Sincronización del entorno
 ```bash
-`uv sync`
+uv sync
 ```
 
 ### 3. Ejecución del notebook practica2_notebook.ipynb
 ```bash
-`uv run jupyter notebook`
+uv run jupyter notebook
 ```
